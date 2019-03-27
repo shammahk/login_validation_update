@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ShazzyCo |registration</title>
+    <link rel="stylesheet" href="./css/registration.css">
+    <link rel="stylesheet" href="./fonts/SansationBold/font.css">
+    <link rel="stylesheet" href="./fonts/SansationLight/font.css">
+    <link rel="stylesheet" href="./fonts/droid sans.css">
+</head>
+<body>
+    <section class="main">
+        <form action="./registration.php" method="post">
+            <div class="text">
+              <h2><i>ENJOY UNLIMITED ACCESS <br> when you </i></h2>
+              <h1> <i> REGISTER with us</i></h1>
+            </div>
+            <input type="text" name="uname" class="username" placeholder="Username">
+            <p class="error" id="user_error">Username is required</p>
+            <input type="email" name="email" class="email" placeholder="Email@mail.com">
+            <p class="error" id="email_error">Email is required</p>
+            <input type="password" name="pword" class="password" placeholder="Password">
+
+            <input type="password" id="confirm_password" placeholder="Confirm Password">
+            <p class="error" id="passwordMatch_error">passwords don't match</p>
+            <div class="btn">
+                <input type="button" value="Register" class="butn">
+                <input type="reset" value="reset" class="butn reset">
+                <div class="loader"></div>
+            </div>
+        </form>
+    </section>
+</body>
+
+<script src="./js/registration.js"></script>
+</html>

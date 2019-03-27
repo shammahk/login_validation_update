@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'TECHNOID';
+	src: url('./TECHNOID.eot');
+	src: local('TECHNOID'), url('./TECHNOID.woff') format('woff'), url('./TECHNOID.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_1011">Text with this font applied</p> */
+.fontsforweb_fontid_1011 {
+	font-family: 'TECHNOID' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
